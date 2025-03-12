@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link href="styles.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1d3d80eb15.js" crossorigin="anonymous"></script>
+    <link href="styles.css" rel="stylesheet">
     <title>MyPortfolio</title>
 </head>
 <body>
@@ -26,21 +27,77 @@
                 <h1>I'm <span class="name">Maria</span> </h1>
                 <h1>An IT Support Technician</h1>
                 <p>
+                    IT Technician with over 3 years of experience in the industry. Outstanding problem-solving and programming skills, as well as excellent teaching skills that help me develop strong IT teams.
+                   Have knowledge of software development and coding ability. Have participated in software development training program provided by Mlab where i learnt Application development.<br>
+                 <br>  Have knowledge of programming languages as as Python and JavaScript. Proficient in HTML5 and CSS3
+                </p>
+                 <div class="btn-box">
+                    <button class="btn-1" onclick="location.href='Contact.html'">Hire Me</button>
+                    <button class="btn-2" onclick="location.href='resume.html'">Experience</button>
+                </div>
+            </div>
+            <div class="img-box">
+                <img src="./images/maria1.jpeg">
+            </div>
+        </div>
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="./images/maria1.jpeg">
+            </div>
+            
+            <div class="about-content">
+                <h2 class="heading">About <span>Me</span> </h2>
+                <h3>IT Support <span>Technician</span></h3>
+                <p>
                     Highly motivated and results-oriented IT Support Technician with  3 years of experience providing technical support for hardware, software, and network issues.
                     Proficient in troubleshooting and resolving IT issues, with a strong focus on providing excellent customer service and ensuring system stability.
                   <br>  I am a dedicated IT Support Technician with a proven track record of successfully implementing IT solutions and improving user experience<br>
                    Have knowledge of software development and coding ability. Have participated in software development training program provided by Mlab where i learnt Application development.
                  <br>  Have knowledge of programming languages as as Python and JavaScript. Proficient in HTML5 and CSS3
                 </p>
-                 <div class="btn-box">
-                    <button class="btn-1" onclick="location.href='resume.html'">Hire Me</button>
-                    <button class="btn-2" onclick="location.href='achievement.html'">Experience</button>
+                <button class="btn-2" onclick="location.href='achievement.html'">Certificates</button>
+            </div>
+        </section>
+        <section class="contact-form" id="contact-form">
+            <h2 class="contact-me">Contact <span>Me</span></h2>
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="full Name" >
+                    <input type="email" placeholder="Email">
                 </div>
+                <div class="input-box">
+                    <input type="tel" placeholder="Phone Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+                <textarea name="" id="" cols="2" rows="7" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn-1">
+            </form>
+        </section>
+        <footer class="footer">
+            <div class="social">
+                <a href="https://www.facebook.com/lerato.maria.104203"><i class="fab fa-facebook"></i> </a>
+                <a href="www.linkedin.com/in/maria-fenyane-b35097219"><i class="fab fa-linkedin"></i></a>
+                <a  onclick="window.location='#contact-form'" name="contact-form"><i class="fab fa-whatsapp"></i></a>
             </div>
-            <div class="img-box">
-                <img src="../maria1.jpeg">
-            </div>
-        </div>
+            <ul class="list">
+                <li>
+                    <a href="#">FAQ</a>
+                </li>
+                <li>
+                    <a href="#">Service</a>
+                </li>
+                <li>
+                    <a name="about" onclick="window.location='#about'">About Me</a>
+                </li>
+                <li>
+                    <a href="Contact.html">Contact</a>
+                </li>
+                <li>
+                    <a  name="form" >Privacy Policy</a>
+                </li>
+            </ul>
+            <p class="copyright"> o 2023 Maria | All right reserved</p>
+        </footer>
     </div>
 </body>
 </html>
